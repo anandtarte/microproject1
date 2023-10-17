@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    font-family: Inter;
+}
+.banner{
+    background-color: #FFCD9E;
+    display: flex;
+}
+.leftSection{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 700;
+    color: #282828;
+    width: 65%;
+    font-style: normal;
+}
+.description{
+    font-weight: 500;
+    font-size: 20px;
+    color: #484848;
+    width: 50%;
+    font-style: normal;
+    line-height: 32px;
+}
+
+.tag{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32px;
+    color: #282828;
+    font-style: normal;
+}
+input{
+    border: 3px solid #000000;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    height: 40px;
+    width: 15rem;
+    margin-top: 12px;
+    margin-right: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #888888;
+
+}
+button{
+    background: #282828;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    width: 10em;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lastLine{
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #282828;
+    color: #FFFFFF;
+    padding-left: 120px;
+    padding-top: 40px;
+    padding-right: 120px;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    font-size: 18px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.rightSide{
+    text-align: right;
+}
+.logo{
+    height: 16px;
+}
+
+
